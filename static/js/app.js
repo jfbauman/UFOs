@@ -79,21 +79,22 @@ function buildTable(data) {
     });
   }
 
-data.forEach((dataRow) => {
-    let row = tbody.append("tr");
-    Object.values(dataRow).forEach((val) => {
-      let cell = row.append("td");
-      cell.text(val);
-      }
-    );
-  });
+// data.forEach((dataRow) => {
+//     let row = tbody.append("tr");
+//     Object.values(dataRow).forEach((val) => {
+//       let cell = row.append("td");
+//       cell.text(val);
+//       }
+//     );
+//   });
 
-  // 12.5.4
+// 12.5.3
   function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
-  
+
+// 12.5.4
      // Check to see if a date was entered and filter the
     // data using that date.
     if (date) {
