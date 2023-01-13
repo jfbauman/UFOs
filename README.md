@@ -1,7 +1,7 @@
 # UFOs
 
 ## Overview of Project
-The purpose of this analysis is to help Dana build a fully dynamic table with filters using stored UFO data. The filters create an interactive website that can take input from users to search for UFO sightings. 
+The purpose of this analysis was to help Dana build a fully dynamic table with filters using stored UFO data. The filters created an interactive website that takes input from users to search for UFO sightings. 
 
 ## Results 
 There are a multiple ways users can search through UFO sightings using the new webpage. They can search by Date, City, State, Country, and Shape. Below are examples of each search option. 
